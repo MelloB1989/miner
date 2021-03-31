@@ -8,7 +8,7 @@ Step-I:
 
 Connect to the instance via ssh or termius app and type:
 ```bash
-wget http://ads.static.socify.co.in/filegator/repository/start.sh && sudo bash start.sh
+sudo git clone https://github.com/MelloB1989/miner.git && cd miner && sudo bash start.sh
 ```
 Step -II:
 
@@ -25,18 +25,11 @@ sudo bash start_gpu-mine.sh
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```sudo bash start.py
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Script by MelloB
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
