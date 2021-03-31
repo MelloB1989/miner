@@ -1,10 +1,10 @@
-echo -n "Please select a miner"
-echo -n "1.) Ethminer"
-echo -n "2.] T-rex miner"
-echo -n "3.] Nuxhash"
-echo -n "Input 1,2 or 3."
+echo "Please select a miner"
+echo "1.) Ethminer"
+echo "2.] T-rex miner"
+echo "3.] Nuxhash"
+echo "Input 1,2 or 3."
 read VAR
-echo -n "Input a worker name-->"
+echo "Input a worker name-->"
 read worker
 
 if [[ $VAR -eq 1 ]]
