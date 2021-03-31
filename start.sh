@@ -6,8 +6,8 @@ sudo bash vnc.sh
 echo "Done...✓"
 echo "Running Cpu-Mine Script..."
 sleep 4s
-sudo chmod +x cpu-mine.sh
-sudo bash cpu-mine.sh
+sudo chmod +x cpu-miner-install.sh
+sudo bash cpu-miner-install.sh
 echo "Done✓"
 echo "Running Gpu-Mine Script..."
 sleep 4s
