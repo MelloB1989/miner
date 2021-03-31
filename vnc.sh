@@ -7,9 +7,9 @@ echo "Please input a password"
 echo "Remember this password to connect through vnc"
 vncserver
 vncserver -kill :1
+cd && cd //home/ubuntu
 mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
-sudo wget http://ads.static.socify.co.in/filegator/repository/xstartup
-sudo mv xstartup //home/ubuntu/.
+sudo mv xstartup //home/ubuntu/.vnc
 sudo chmod +x ~/.vnc/xstartup
 vncserver
 echo "Enjoy! Task Completed!"
