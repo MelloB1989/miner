@@ -24,6 +24,7 @@ echo "Done✓"
 sleep 4s
 echo "Installing Ethminer..."
 sleep 3s
+cd
 mkdir ethminer && cd ethminer
 wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha.0/ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
 tar xf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
@@ -39,6 +40,7 @@ echo "Done✓"
 sleep 4s
 echo "Initializing....."
 sleep 5s
+cd miner
 sudo bash vnc.sh
 sudo chmod +x start_gpu-mine.sh
 sleep 2s
