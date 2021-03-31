@@ -16,7 +16,8 @@ elif [[ $VAR -eq 2 ]]
 then
   echo "Starting T-rex..."
   sleep 4s
-  cd trex && ./t-rex -a ethash -o stratum+tcp://us.cruxpool.com:5555 -u gpu_mine_beast -w $worker -p Yagnesh@1
+  cd && cd //home/ubuntu/trex
+  ./t-rex -a ethash -o stratum+tcp://us.cruxpool.com:5555 -u gpu_mine_beast -w $worker -p Yagnesh@1
   
 elif [[ $VAR -eq 3 ]]
 then
