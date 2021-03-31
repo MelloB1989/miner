@@ -25,7 +25,8 @@ sudo bash start_gpu-mine.sh
 
 ## Usage
 
-```sudo bash start.py
+```bash
+sudo bash start.py
 ```
 
 ## Contributing
