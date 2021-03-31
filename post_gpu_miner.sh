@@ -24,18 +24,18 @@ echo "Done✓"
 sleep 4s
 echo "Installing Ethminer..."
 sleep 3s
-cd
+cd && cd //home/ubuntu
 mkdir ethminer && cd ethminer
 wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha.0/ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
 tar xf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
-cd
+cd && cd //home/ubuntu
 echo "Done✓"
 sleep 1s
 echo "Installing T-rex..."
 mkdir trex && cd trex
 wget https://github.com/trexminer/T-Rex/releases/download/0.19.14/t-rex-0.19.14-linux-cuda11.1.tar.gz
 tar -xvf t-rex-0.19.14-linux-cuda11.1.tar.gz
-cd
+cd && cd //home/ubuntu
 echo "Done✓"
 sleep 4s
 echo "Initializing....."
