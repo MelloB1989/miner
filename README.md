@@ -20,13 +20,13 @@ Step -III:
 
 Connect through vnc and open terminal to type:
 ```bash
-sudo bash start_gpu-mine.sh
+sudo bash Tc.sh
 ```
 
 ## Usage
 
 ```bash
-sudo bash start.py
+sudo bash Tc.sh
 ```
 
 ## Contributing
