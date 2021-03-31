@@ -33,4 +33,4 @@ sudo bash start.py
 Script by MelloB
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/MelloB1989/miner/blob/main/LICENSE)
