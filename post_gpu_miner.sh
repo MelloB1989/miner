@@ -40,7 +40,6 @@ sleep 4s
 echo "Initializing....."
 sleep 5s
 sudo bash vnc.sh
-wget http://ads.static.socify.co.in/filegator/repository/start_gpu-mine.sh
 sudo chmod +x start_gpu-mine.sh
 sleep 2s
 echo "Cheking..."
