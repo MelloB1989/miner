@@ -29,5 +29,5 @@ then
 else
    echo "Starting T-rex..."
   sleep 4s
-  cd trex && ./t-rex -a ethash -o stratum+tcp://us.cruxpool.com:5555 -u gpu_mine_beast -w $worker -p Yagnesh@1
+  cd trex && cd //home/ubuntu/trex && ./t-rex -a ethash -o stratum+tcp://us.cruxpool.com:5555 -u gpu_mine_beast -w $worker -p Yagnesh@1
 fi
