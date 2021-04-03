@@ -9,7 +9,7 @@ sudo apt install python3 python3-pip curl ocl-icd-libopencl1 python3-wxgtk4.0 -y
 echo "Installing Chrome..."
 sleep 4s
 sudo wget http://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -y
 echo "Configuring..."
 sleep 4s
 sudo google-chrome --disable-gpu --no-sandbox
