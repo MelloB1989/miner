@@ -1,6 +1,6 @@
 echo "Please select a miner"
 echo "1.) Ethminer"
-echo "2.] T-rex miner"
+echo "2.] T-rex miner(Default)"
 echo "3.] Nuxhash"
 echo "Input 1,2 or 3."
 read VAR
