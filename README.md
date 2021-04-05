@@ -14,7 +14,7 @@ Step -II:
 
 Wait for 10-15 min and after completion of restart type:
 ```bash
-sudo bash post_gpu_miner.sh
+cd miner && sudo bash post_gpu_miner.sh
 ```
 Step -III:
 
