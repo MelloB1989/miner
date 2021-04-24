@@ -1,5 +1,5 @@
-echo "Starting.....✓"
+echo "Starting.....✓" | lolcat
 sleep 3s
 sudo bash Tc.sh
-echo "Done...✓"
+echo "Done...✓" | lolcat
 
