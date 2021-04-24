@@ -3,7 +3,7 @@ sudo apt update
 echo "Installing Desktop Environment..." | lolcat
 sudo apt install -y xfce4 xfce4-goodies
 sudo apt install -y tightvncserver
-echo "Please input a password"
+echo "Please input a password" | lolcat
 echo "Remember this password to connect through vnc" | lolcat
 vncserver
 vncserver -kill :1
