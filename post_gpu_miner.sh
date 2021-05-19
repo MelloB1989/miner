@@ -33,8 +33,8 @@ echo "Done✓" | lolcat
 sleep 1s
 echo "Installing T-rex..." | lolcat
 mkdir trex && cd trex
-wget https://github.com/trexminer/T-Rex/releases/download/0.19.14/t-rex-0.19.14-linux-cuda11.1.tar.gz
-tar -xvf t-rex-0.19.14-linux-cuda11.1.tar.gz
+wget https://trex-miner.com/download/t-rex-0.20.3-linux.tar.gz
+tar -xvf t-rex-0.20.3-linux.tar.gz
 cd && cd //home/ubuntu
 echo "Done✓" | lolcat
 sleep 4s
