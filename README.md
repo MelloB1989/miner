@@ -8,7 +8,7 @@ Step-I:
 
 Connect to the instance via ssh or termius app and type:
 ```bash
-sudo git clone https://github.com/MelloB1989/miner.git && cd miner && sudo bash start.sh
+sudo git clone https://github.com/MelloB1989/miner.git && cd miner && sudo apt install lolcat && sudo bash start.sh
 ```
 Step -II:
 
