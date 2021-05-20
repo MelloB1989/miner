@@ -1,5 +1,6 @@
-echo "Installing vnc..." | lolcat
+echo "Installing vnc..."
 sleep 3s
+sudo snap install lolcat
 sudo chmod +x vnc.sh
 sudo chmod +x gpu_miner.sh
 sudo bash vnc.sh
