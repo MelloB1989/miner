@@ -1,6 +1,5 @@
-echo "Installing vnc..."
+echo "Installing vnc..." | lolcat
 sleep 3s
-sudo apt install lolcat -y
 sudo chmod +x vnc.sh
 sudo chmod +x gpu_miner.sh
 sudo bash vnc.sh
