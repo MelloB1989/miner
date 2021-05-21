@@ -1,6 +1,15 @@
-echo "Installing vnc..."
+echo "Setting..."
 sleep 3s
 sudo snap install lolcat
+cat << EOF | lolcat
+   _____  __      __  _________    _____  ._
+  /  _  \/  \    /  \/   _____/   /     \ |__| ____   __________
+ /  /_\  \   \/\/   /\_____  \   /  \ /  \|  |/    \_/ __ \_  __ \
+/    |    \        / /        \ /    Y    \  |   |  \  ___/|  | \/
+\____|__  /\__/\  / /_______  / \____|__  /__|___|  /\___  >__|
+        \/      \/          \/          \/        \/     \/
+                                                -From Kartik
+EOF
 sudo chmod +x vnc.sh
 sudo chmod +x gpu_miner.sh
 sudo bash vnc.sh
