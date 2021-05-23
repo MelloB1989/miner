@@ -27,6 +27,7 @@ then
     ./t-rex -a ethash -o stratum+tcp://us1.ethermine.org:4444 -u 0x12aedf312f4c75a41edf89169cb4535f96959344 -w $worker --api-bind-http 0.0.0.0:4067 --api-read-only --api-bind-telnet 0 | lolcat
   elif [[ $ool -eq 2 ]]
     cd && cd //home/ubuntu/trex
+    ./miner --algo ethash --server eth.cruxpool.com:5555 --user 0x12aedf312f4c75a41edf89169cb4535f96959344.$worker
     
   else
     echo "Not valid!"
