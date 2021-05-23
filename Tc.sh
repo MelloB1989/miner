@@ -16,8 +16,21 @@ elif [[ $VAR -eq 2 ]]
 then
   echo "Starting T-rex..." | lolcat
   sleep 4s
-  cd && cd //home/ubuntu/trex
-  ./t-rex -a ethash -o stratum+tcp://us1.ethermine.org:4444 -u 0x12aedf312f4c75a41edf89169cb4535f96959344 -w $worker --api-bind-http 0.0.0.0:4067 --api-read-only --api-bind-telnet 0 | lolcat
+  echo "Please select a pool" | lolcat
+  echo "1. Cruxpool" | lolcat
+  echo "2. Ethminer" | lolcat
+  echo "Input 1 or 2" | lolcat
+  read ool
+  if [[ $ool -eq 1 ]]
+  then
+    cd && cd //home/ubuntu/trex
+    ./t-rex -a ethash -o stratum+tcp://us1.ethermine.org:4444 -u 0x12aedf312f4c75a41edf89169cb4535f96959344 -w $worker --api-bind-http 0.0.0.0:4067 --api-read-only --api-bind-telnet 0 | lolcat
+  elif [[ $ool -eq 2 ]]
+    cd && cd //home/ubuntu/trex
+    
+  else
+    echo "Not valid!"
+  fi  
   
 elif [[ $VAR -eq 3 ]]
 then
