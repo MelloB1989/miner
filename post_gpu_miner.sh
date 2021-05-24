@@ -40,7 +40,7 @@ echo "Done✓" | lolcat
 sleep 4s
 echo "Installing G-miner" | lolcat
 sleep 4s
-cd && cd //home/ubuntu && mkdir gminer
+cd && cd //home/ubuntu && mkdir gminer && cd gminer
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.54/gminer_2_54_linux64.tar.xz
 tar -xvf gminer_2_54_linux64.tar.xz
 cd && cd //home/ubuntu
