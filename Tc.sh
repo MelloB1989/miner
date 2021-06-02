@@ -30,7 +30,7 @@ elif [[ $VAR -eq 4 ]]
 then
   echo "Starting Gminer..." | lolcat
   cd && cd //home/ubuntu/gminer
-  ./miner --algo ethash --server us1.ethermine.org:4444 --user 0x12aedf312f4c75a41edf89169cb4535f96959344.$worker
+  ./miner --algo ethash --server us1.ethermine.org:4444 --user 0xc205fb3d9a351b6523589c201a9ad22a6dc5d896.$worker
   
 else
    echo "Starting T-rex..." | lolcat
